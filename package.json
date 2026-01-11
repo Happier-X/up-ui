@@ -1,7 +1,18 @@
 {
+  "name": "up-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
   "dependencies": {
     "@up-ui/utils": "workspace:*",
-    "@up-ui/hook": "workspace:*",
-    "@up-ui/components": "workspace:*"
+    "@up-ui/components": "workspace:*",
+    "@up-ui/hook": "workspace:*"
   }
 }
