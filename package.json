@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@up-ui/utils": "workspace:*",
+    "@up-ui/hook": "workspace:*",
+    "@up-ui/components": "workspace:*"
+  }
+}
