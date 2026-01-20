@@ -1,5 +1,5 @@
 <template>
-    <button>这是一个button组件</button>
+    <div class="u-button">这是一个button组件</div>
 </template>
 <script setup>
 defineOptions({
