@@ -1,3 +1,18 @@
 @theme {
-    --color-background: #f5f5f5;
+  --color-background: oklch(0.9702 0 0); /* 背景色 */
+
+  --color-default: oklch(100% 0 0); /* 默认色 */
+  --color-primary: oklch(0.6204 0.195 253.83); /* 主要色 */
+  --color-success: oklch(0.7329 0.1935 150.81); /* 成功色 */
+  --color-warning: oklch(0.7819 0.1585 72.33); /* 警告色 */
+  --color-error: oklch(0.6532 0.2328 25.74); /* 错误色 */
+
+  --color-default-hover: oklch(0.95 0 0); /* 默认色悬停 */
+  --color-primary-hover: oklch(0.5704 0.195 253.83); /* 主要色悬停 */
+  --color-success-hover: oklch(0.6829 0.1935 150.81); /* 成功色悬停 */
+  --color-warning-hover: oklch(0.7319 0.1585 72.33); /* 警告色悬停 */
+  --color-error-hover: oklch(0.6032 0.2328 25.74); /* 错误色悬停 */
+
+  --color-text: oklch(0.25 0 0); /* 文字颜色 */
+  --color-text-on-color: oklch(100% 0 0); /* 文字颜色上时的颜色 */
 }
