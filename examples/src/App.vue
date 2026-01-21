@@ -15,15 +15,15 @@
         </div>
       </section>
 
-      <!-- 朴素按钮 -->
+      <!-- 变体 -->
       <section class="space-y-4">
-        <h2 class="text-xl font-semibold">朴素按钮</h2>
+        <h2 class="text-xl font-semibold">变体按钮</h2>
         <div class="flex gap-4 flex-wrap">
-          <u-button plain>默认按钮</u-button>
-          <u-button color="primary" plain>主要按钮</u-button>
-          <u-button color="success" plain>成功按钮</u-button>
-          <u-button color="warning" plain>警告按钮</u-button>
-          <u-button color="error" plain>错误按钮</u-button>
+          <u-button variant="outline">默认按钮</u-button>
+          <u-button color="primary" variant="outline">主要按钮</u-button>
+          <u-button color="success" variant="outline">成功按钮</u-button>
+          <u-button color="warning" variant="outline">警告按钮</u-button>
+          <u-button color="error" variant="outline">错误按钮</u-button>
         </div>
       </section>
 
