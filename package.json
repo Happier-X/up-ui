@@ -11,7 +11,7 @@
       "import": "./dist/hakimi-ui.es.js",
       "require": "./dist/hakimi-ui.umd.js"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/hakimi-ui.css": { "style": "./dist/hakimi-ui.css" }
   },
   "files": [
     "dist"
@@ -50,3 +50,4 @@
   },
   "packageManager": "pnpm@10.22.0"
 }
+
