@@ -1,0 +1,14 @@
+node_modules
+examples
+docs
+packages
+.git
+.gitignore
+pnpm-workspace.yaml
+tsconfig.json
+vite.config.ts
+.vscode
+.idea
+*.log
+*.lock
+pnpm-lock.yaml

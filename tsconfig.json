@@ -1,0 +1,26 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": true,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./packages/*"],
+      "@up-ui/utils": ["./packages/utils/index.ts"],
+      "@up-ui/hook": ["./packages/hook/index.ts"],
+      "@up-ui/components": ["./packages/components/index.ts"]
+    }
+  },
+  "include": [
+    "packages/**/*",
+    "packages/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "examples",
+    "docs"
+  ]
+}
