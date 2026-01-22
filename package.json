@@ -1,6 +1,6 @@
 {
   "name": "hakimi-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vue 3 UI component library",
   "main": "./dist/hakimi-ui.umd.js",
   "module": "./dist/hakimi-ui.es.js",
