@@ -1,15 +1,15 @@
 {
-  "name": "up-ui",
+  "name": "hakimi-ui",
   "version": "0.0.1",
   "description": "A Vue 3 UI component library",
-  "main": "./dist/up-ui.umd.js",
-  "module": "./dist/up-ui.es.js",
+  "main": "./dist/hakimi-ui.umd.js",
+  "module": "./dist/hakimi-ui.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/up-ui.es.js",
-      "require": "./dist/up-ui.umd.js"
+      "import": "./dist/hakimi-ui.es.js",
+      "require": "./dist/hakimi-ui.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },

@@ -1,15 +1,15 @@
-# up-ui
+# hakimi-ui
 
 A Vue 3 UI component library.
 
 ## Installation
 
 ```bash
-npm install up-ui
+npm install hakimi-ui
 # or
-pnpm add up-ui
+pnpm add hakimi-ui
 # or
-yarn add up-ui
+yarn add hakimi-ui
 ```
 
 ## Usage
@@ -18,20 +18,20 @@ yarn add up-ui
 
 ```js
 import { createApp } from 'vue'
-import UpUI from 'up-ui'
-import 'up-ui/dist/up-ui.css'
+import HakimiUI from 'hakimi-ui'
+import 'hakimi-ui/dist/hakimi-ui.css'
 import App from './App.vue'
 
 const app = createApp(App)
-app.use(UpUI)
+app.use(HakimiUI)
 app.mount('#app')
 ```
 
 ### On-demand Import
 
 ```js
-import { UButton } from 'up-ui'
-import 'up-ui/dist/up-ui.css'
+import { UButton } from 'hakimi-ui'
+import 'hakimi-ui/dist/hakimi-ui.css'
 ```
 
 ## Components

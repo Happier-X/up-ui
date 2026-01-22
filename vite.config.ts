@@ -24,8 +24,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'packages/index.ts'),
-      name: 'UpUI',
-      fileName: (format) => `up-ui.${format}.js`
+      name: 'HakimiUI',
+      fileName: (format) => `hakimi-ui.${format}.js`
     },
     rollupOptions: {
       // 确保外部化处理那些不想打包进库的依赖
