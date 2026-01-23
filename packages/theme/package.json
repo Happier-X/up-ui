@@ -1,11 +1,11 @@
 {
-  "name": "@up-ui/theme",
+  "name": "@hakimi-ui/theme",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @tailwindcss/cli -i ./src/index.css -o dist/up-ui.css --minify"
+    "build": "npx @tailwindcss/cli -i ./src/index.css -o dist/hakimi-ui.css --minify"
   },
   "keywords": [],
   "author": "",

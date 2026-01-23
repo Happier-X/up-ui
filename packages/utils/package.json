@@ -1,8 +1,9 @@
 {
-  "name": "@up-ui/utils",
+  "name": "@hakimi-ui/utils",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

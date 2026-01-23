@@ -1,4 +1,4 @@
-import { componentInstall } from "@up-ui/utils";
+import { componentInstall } from "@hakimi-ui/utils";
 
 import Button from "./src/index.vue";
 // 提供按需加载的方式

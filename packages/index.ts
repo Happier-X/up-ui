@@ -1,5 +1,5 @@
 // 导入样式
-import "../packages/theme/src/index.css";
+import "./theme/src/index.css";
 
 // 组件库的入口
 // 按需加载

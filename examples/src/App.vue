@@ -7,11 +7,11 @@
       <section class="space-y-4">
         <h2 class="text-xl font-semibold">基础按钮</h2>
         <div class="flex gap-4 flex-wrap">
-          <u-button>默认按钮</u-button>
-          <u-button color="primary">主要按钮</u-button>
-          <u-button color="success">成功按钮</u-button>
-          <u-button color="warning">警告按钮</u-button>
-          <u-button color="error">错误按钮</u-button>
+          <h-button>默认按钮</h-button>
+          <h-button color="primary">主要按钮</h-button>
+          <h-button color="success">成功按钮</h-button>
+          <h-button color="warning">警告按钮</h-button>
+          <h-button color="error">错误按钮</h-button>
         </div>
       </section>
 
@@ -19,11 +19,18 @@
       <section class="space-y-4">
         <h2 class="text-xl font-semibold">变体按钮</h2>
         <div class="flex gap-4 flex-wrap">
-          <u-button variant="outline">默认按钮</u-button>
-          <u-button color="primary" variant="outline">主要按钮</u-button>
-          <u-button color="success" variant="outline">成功按钮</u-button>
-          <u-button color="warning" variant="outline">警告按钮</u-button>
-          <u-button color="error" variant="outline">错误按钮</u-button>
+          <h-button variant="outline">默认按钮</h-button>
+          <h-button color="primary" variant="outline">主要按钮</h-button>
+          <h-button color="success" variant="outline">成功按钮</h-button>
+          <h-button color="warning" variant="outline">警告按钮</h-button>
+          <h-button color="error" variant="outline">错误按钮</h-button>
+        </div>
+        <div class="flex gap-4 flex-wrap">
+          <h-button variant="ghost">默认按钮</h-button>
+          <h-button color="primary" variant="ghost">主要按钮</h-button>
+          <h-button color="success" variant="ghost">成功按钮</h-button>
+          <h-button color="warning" variant="ghost">警告按钮</h-button>
+          <h-button color="error" variant="ghost">错误按钮</h-button>
         </div>
       </section>
 
@@ -31,11 +38,11 @@
       <section class="space-y-4">
         <h2 class="text-xl font-semibold">圆角按钮</h2>
         <div class="flex gap-4 flex-wrap">
-          <u-button round>默认按钮</u-button>
-          <u-button color="primary" round>主要按钮</u-button>
-          <u-button color="success" round>成功按钮</u-button>
-          <u-button color="warning" round>警告按钮</u-button>
-          <u-button color="error" round>错误按钮</u-button>
+          <h-button round>默认按钮</h-button>
+          <h-button color="primary" round>主要按钮</h-button>
+          <h-button color="success" round>成功按钮</h-button>
+          <h-button color="warning" round>警告按钮</h-button>
+          <h-button color="error" round>错误按钮</h-button>
         </div>
       </section>
 
@@ -43,11 +50,11 @@
       <section class="space-y-4">
         <h2 class="text-xl font-semibold">禁用状态</h2>
         <div class="flex gap-4 flex-wrap">
-          <u-button disabled>默认按钮</u-button>
-          <u-button color="primary" disabled>主要按钮</u-button>
-          <u-button color="success" disabled>成功按钮</u-button>
-          <u-button color="warning" disabled>警告按钮</u-button>
-          <u-button color="error" disabled>错误按钮</u-button>
+          <h-button disabled>默认按钮</h-button>
+          <h-button color="primary" disabled>主要按钮</h-button>
+          <h-button color="success" disabled>成功按钮</h-button>
+          <h-button color="warning" disabled>警告按钮</h-button>
+          <h-button color="error" disabled>错误按钮</h-button>
         </div>
       </section>
 
@@ -55,11 +62,11 @@
       <section class="space-y-4">
         <h2 class="text-xl font-semibold">加载状态</h2>
         <div class="flex gap-4 flex-wrap">
-          <u-button loading>默认按钮</u-button>
-          <u-button color="primary" loading>主要按钮</u-button>
-          <u-button color="success" loading>成功按钮</u-button>
-          <u-button color="warning" loading>警告按钮</u-button>
-          <u-button color="error" loading>错误按钮</u-button>
+          <h-button loading>默认按钮</h-button>
+          <h-button color="primary" loading>主要按钮</h-button>
+          <h-button color="success" loading>成功按钮</h-button>
+          <h-button color="warning" loading>警告按钮</h-button>
+          <h-button color="error" loading>错误按钮</h-button>
         </div>
       </section>
 
@@ -67,9 +74,9 @@
       <section class="space-y-4">
         <h2 class="text-xl font-semibold">不同尺寸</h2>
         <div class="flex gap-4 items-center flex-wrap">
-          <u-button size="small">小型按钮</u-button>
-          <u-button size="medium">中等按钮</u-button>
-          <u-button size="large">大型按钮</u-button>
+          <h-button size="small">小型按钮</h-button>
+          <h-button size="medium">中等按钮</h-button>
+          <h-button size="large">大型按钮</h-button>
         </div>
       </section>
 
@@ -77,9 +84,9 @@
       <section class="space-y-4">
         <h2 class="text-xl font-semibold">圆形按钮</h2>
         <div class="flex gap-4 items-center flex-wrap">
-          <u-button circle size="small">+</u-button>
-          <u-button color="primary" circle>+</u-button>
-          <u-button color="success" circle size="large">✓</u-button>
+          <h-button circle size="small">+</h-button>
+          <h-button color="primary" circle>+</h-button>
+          <h-button color="success" circle size="large">✓</h-button>
         </div>
       </section>
 
@@ -87,8 +94,8 @@
       <section class="space-y-4">
         <h2 class="text-xl font-semibold">点击事件</h2>
         <div class="flex gap-4 flex-wrap">
-          <u-button color="primary" @click="handleClick">点击我</u-button>
-          <u-button color="success" @click="handleClick">触发事件</u-button>
+          <h-button color="primary" @click="handleClick">点击我</h-button>
+          <h-button color="success" @click="handleClick">触发事件</h-button>
         </div>
         <p v-if="clickCount > 0" class="text-gray-600">
           按钮被点击了 {{ clickCount }} 次
@@ -100,7 +107,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { UButton } from "../../packages";
 
 const clickCount = ref(0)
 

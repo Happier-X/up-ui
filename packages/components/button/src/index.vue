@@ -11,13 +11,13 @@
 import { computed } from 'vue'
 
 defineOptions({
-    name: 'u-button',
+    name: 'h-button',
 })
 
 export interface ButtonProps {
     color?: 'default' | 'primary' | 'success' | 'warning' | 'error'
-    variant?: 'solid' | 'outline' | 'soft' | 'subtle' | 'ghost' | 'link'
-    size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl'
+    variant?: 'solid' | 'outline' | 'ghost'
+    size?: 'small' | 'medium' | 'large'
     disabled?: boolean
     loading?: boolean
     round?: boolean
@@ -28,7 +28,7 @@ export interface ButtonProps {
 const props = withDefaults(defineProps<ButtonProps>(), {
     color: 'default',
     variant: 'solid',
-    size: 'md',
+    size: 'medium',
     disabled: false,
     loading: false,
     round: false,
@@ -42,10 +42,10 @@ const emit = defineEmits<{
 
 const buttonClass = computed(() => {
     return [
-        'u-button',
-        `u-button--${props.color}`,
-        `u-button--${props.variant}`,
-        `u-button--${props.size}`,
+        'h-button',
+        `h-button--${props.color}`,
+        `h-button--${props.variant}`,
+        `h-button--${props.size}`,
         {
             'is-disabled': props.disabled,
             'is-loading': props.loading,

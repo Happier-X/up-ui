@@ -1,68 +1,75 @@
 @layer components {
-  .u-button {
+  .h-button {
     @apply inline-flex items-center justify-center gap-2;
-    @apply px-4 py-2 rounded-md;
-    @apply bg-default;
-    @apply transition-all duration-200;
     @apply cursor-pointer select-none;
+    @apply rounded-md font-medium transition-all;
+    @apply active:scale-97;
+  }
+
+  .h-button--small {
+    @apply px-2 py-1 text-sm;
+  }
+
+  .h-button--medium {
+    @apply px-2.5 py-1.5 text-base;
+  }
+
+  .h-button--large {
+    @apply px-3 py-2 text-base;
+  }
+
+  .h-button--solid.h-button--default {
+    @apply bg-default text-text-base;
     @apply hover:bg-default-hover;
-    @apply text-black;
   }
 
-  .u-button--primary {
-    @apply bg-primary;
+  .h-button--solid.h-button--primary {
+    @apply bg-primary text-text-inverse;
     @apply hover:bg-primary-hover;
-    @apply text-white;
   }
 
-  .u-button--success {
-    @apply bg-success;
+  .h-button--solid.h-button--success {
+    @apply bg-success text-text-inverse;
     @apply hover:bg-success-hover;
-    @apply text-white;
   }
 
-  .u-button--warning {
-    @apply bg-warning;
+  .h-button--solid.h-button--warning {
+    @apply bg-warning text-text-inverse;
     @apply hover:bg-warning-hover;
-    @apply text-white;
   }
 
-  .u-button--error {
-    @apply bg-error;
+  .h-button--solid.h-button--error {
+    @apply bg-error text-text-inverse;
     @apply hover:bg-error-hover;
-    @apply text-white;
   }
 
-  .u-button--outline {
-    @apply bg-background border;
+  .h-button--outline.h-button--default {
+    @apply bg-transparent text-text-base;
+    @apply border border-default-border;
+    @apply hover:bg-default-light;
   }
 
-  .u-button--default.u-button--outline {
-    @apply border-default text-default;
-    @apply hover:bg-default/10;
+  .h-button--outline.h-button--primary {
+    @apply bg-transparent text-primary;
+    @apply border border-primary-border;
+    @apply hover:bg-primary-light;
   }
 
-  .u-button--primary.u-button--outline {
-    @apply border-primary text-primary;
-    @apply hover:bg-primary/10;
+  .h-button--outline.h-button--success {
+    @apply bg-transparent text-success;
+    @apply border border-success-border;
+    @apply hover:bg-success-light;
   }
 
-  .u-button--success.u-button--outline {
-    @apply border-success text-success;
-    @apply hover:bg-success/10;
+  .h-button--outline.h-button--warning {
+    @apply bg-transparent text-warning;
+    @apply border border-warning-border;
+    @apply hover:bg-warning-light;
   }
 
-  .u-button--warning.u-button--outline {
-    @apply border-warning text-warning;
-    @apply hover:bg-warning/10;
-  }
-
-  .u-button--error.u-button--outline {
-    @apply border-error text-error;
-    @apply hover:bg-error/10;
-  }
-
-  .u-button.is-round {
-    @apply rounded-full;
+  .h-button--outline.h-button--error {
+    @apply bg-transparent text-error;
+    @apply border border-error-border;
+    @apply hover:bg-error-light;
   }
 }

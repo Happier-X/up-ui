@@ -8,19 +8,11 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": ["./packages/*"],
-      "@up-ui/utils": ["./packages/utils/index.ts"],
-      "@up-ui/hook": ["./packages/hook/index.ts"],
-      "@up-ui/components": ["./packages/components/index.ts"]
+      "@hakimi-ui/utils": ["./packages/utils/index.ts"],
+      "@hakimi-ui/hook": ["./packages/hook/index.ts"],
+      "@hakimi-ui/components": ["./packages/components/index.ts"]
     }
   },
-  "include": [
-    "packages/**/*",
-    "packages/**/*.vue"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "examples",
-    "docs"
-  ]
+  "include": ["packages/**/*", "packages/**/*.vue"],
+  "exclude": ["node_modules", "dist", "examples", "docs"]
 }

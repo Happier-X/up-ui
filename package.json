@@ -11,7 +11,9 @@
       "import": "./dist/hakimi-ui.es.js",
       "require": "./dist/hakimi-ui.umd.js"
     },
-    "./dist/hakimi-ui.css": { "style": "./dist/hakimi-ui.css" }
+    "./dist/hakimi-ui.css": {
+      "style": "./dist/hakimi-ui.css"
+    }
   },
   "files": [
     "dist"
@@ -27,7 +29,7 @@
     "ui",
     "component",
     "library",
-    "up-ui"
+    "hakimi-ui"
   ],
   "author": "",
   "license": "ISC",
@@ -50,4 +52,3 @@
   },
   "packageManager": "pnpm@10.22.0"
 }
-

@@ -1,15 +1,38 @@
 @theme {
-  --color-background: oklch(1 0 0); /* 背景色 */
+  /* 全局颜色 */
+  --color-background: var(--color-slate-50);
+  --color-foreground: var(--color-slate-900);
 
-  --color-default: oklch(0.94 0.001 286.375); /* 默认色 */
-  --color-primary: oklch(0.6204 0.195 253.83); /* 主要色 */
-  --color-success: oklch(0.7329 0.1935 150.81); /* 成功色 */
-  --color-warning: oklch(0.7819 0.1585 72.33); /* 警告色 */
-  --color-error: oklch(0.6532 0.2328 25.74); /* 错误色 */
+  /* 颜色 */
+  --color-default: var(--color-gray-200);
+  --color-default-hover: var(--color-gray-300);
+  --color-default-light: var(--color-gray-100);
+  --color-default-border: var(--color-gray-300);
 
-  --color-default-hover: oklch(0.86 0.001 286.375); /* 默认悬停状态颜色 */
-  --color-primary-hover: oklch(0.5404 0.195 253.83); /* 主要悬停状态颜色 */
-  --color-success-hover: oklch(0.6529 0.1935 150.81); /* 成功悬停状态颜色 */
-  --color-warning-hover: oklch(0.7019 0.1585 72.33); /* 警告悬停状态颜色 */
-  --color-error-hover: oklch(0.5732 0.2328 25.74); /* 错误悬停状态颜色 */
+  --color-primary: var(--color-blue-500);
+  --color-primary-hover: var(--color-blue-600);
+  --color-primary-light: var(--color-blue-100);
+  --color-primary-border: var(--color-blue-400);
+
+  --color-success: var(--color-green-500);
+  --color-success-hover: var(--color-green-600);
+  --color-success-light: var(--color-green-100);
+  --color-success-border: var(--color-green-400);
+
+  --color-warning: var(--color-amber-500);
+  --color-warning-hover: var(--color-amber-600);
+  --color-warning-light: var(--color-amber-100);
+  --color-warning-border: var(--color-amber-400);
+
+  --color-error: var(--color-red-500);
+  --color-error-hover: var(--color-red-600);
+  --color-error-light: var(--color-red-100);
+  --color-error-border: var(--color-red-400);
+
+  /* 文字颜色 */
+  --color-text-base: var(--color-slate-900);
+  --color-text-muted: var(--color-slate-500);
+  --color-text-subtle: var(--color-slate-400);
+  --color-text-disabled: var(--color-slate-300);
+  --color-text-inverse: var(--color-slate-50);
 }
